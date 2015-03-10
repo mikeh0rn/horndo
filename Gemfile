@@ -55,3 +55,5 @@ gem 'activejob', '~> 4.2.0'
 
 gem 'loofah', '~> 2.0.1'
 
+gem 'mime-types', '~> 2.4.3'
+
