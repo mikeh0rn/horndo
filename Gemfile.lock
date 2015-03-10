@@ -181,6 +181,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activejob (~> 4.2.0)
   auto_html
   coffee-rails (~> 4.1.0)
   devise

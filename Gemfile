@@ -51,3 +51,5 @@ gem 'devise'
 
 gem 'auto_html'
 
+gem 'activejob', '~> 4.2.0'
+
