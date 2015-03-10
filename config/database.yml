@@ -1,20 +1,21 @@
-default: &default
-adapter: postgresql
-encoding: unicode
-pool: 5
-
 development:
-<<: *default
-database: horndo_production
+  adapter: postgresql
+  encoding: unicode
+  database: horndo_development
+  pool: 5
+  host: localhost
 
 test:
-<<: *default
-database: horndo
+  adapter: postgresql
+  encoding: unicode
+  database: horndo_test
+  pool: 5
+  host: localhost
 
-production: &default
-adapter: postgresql
-database: horndo_production
-encoding: utf8
-min_messages: warning
-pool: 5
-timeout: 5000
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: horndo_production
+  pool: 5
+  host: localhost
+
